@@ -1,38 +1,3 @@
-﻿//using System;
-
-//namespace Dados_funcionario
-//{
-//    class Program
-//    {
-//        static void Main(string[] args)
-//        {
-
-//            float aumento;
-//            Funcionario a = new Funcionario();
-
-//            Console.WriteLine("NOME: ");
-//            a.nome = Console.ReadLine();
-//            Console.WriteLine("SALÁRIO BRUTO: ");
-//            a.salarioBruto = double.Parse(Console.ReadLine());
-//            Console.WriteLine("QUAL O IMPOSTO: ");
-//            a.imposto = double.Parse(Console.ReadLine());
-
-//            Console.WriteLine("NOME: " + a.nome + " SALÁRIO BRUTO: " + a.salarioBruto + " SALÁRIO LIQUIDO: " + (a.salarioBruto - a.imposto));
-
-//            Console.WriteLine("QUANTO VAI SER SEU AUMENTO EM % SOBRE O SALÁRIO BRUTO: ");
-//            aumento = float.Parse(Console.ReadLine());
-
-//            aumento = aumento / 100;
-
-//            Console.WriteLine("O SEU SALÁRIO COM O AUMENTO É DE: " + (a.salarioBruto +(a.salarioBruto * aumento)));
-
-//            Console.WriteLine();
-//            Console.WriteLine("Pressione ENTER encerrar");
-//            Console.ReadLine();
-//        }
-//    }
-//}
-
 using System;
 
 namespace Dados_funcionario
